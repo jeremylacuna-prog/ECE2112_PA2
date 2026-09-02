@@ -13,7 +13,8 @@ Create a reproducible random 5 × 5 integer **ndarray** named **X**. Use the fol
 `X = np.random.randint(10, 101, size=(5, 5))` <br>
 Normalize the complete array using:
 $$Z = \frac{X - \bar{x}}{\sigma}$$ 
-<br> where $\bar{x}$ is the mean of all 25 elements and $\sigma$ is their population standard deviation as returned by NumPy's default **std()** call. Store the normalized array in **X_normalized**.
+<br> where $\bar{x}$ is the mean of all 25 elements and $\sigma$ is their population standard deviation as returned by NumPy's default **std()** call. Store the normalized array in **X_normalized**. <br>
+<br>
 Functions used for this problem:
 - **np.random.seed()**: Used to initialize the random number generator. **Makes random results predictable and reproducible**.
 - **np.random.randint()**: Used to **generate random integers** within a specified range.
@@ -167,3 +168,4 @@ To view and test the code:
 **README File Version History:**
 
 ```September 2, 2026``` - README.md output uploaded. <br>
+```September 2, 2026``` - Small formatting edits are made. <br>
